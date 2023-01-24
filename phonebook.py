@@ -1,4 +1,6 @@
 import pandas as pd
+# нужен openpyxl
+
 def readDB():
     return pd.read_json("phonebook.json")
 
